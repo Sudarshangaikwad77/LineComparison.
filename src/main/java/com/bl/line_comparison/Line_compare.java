@@ -55,7 +55,9 @@ public class Line_compare
             }
         }
 
-        public static void main(String[] args) {
+        //
+    // main method
+    public static void main(String[] args) {
             System.out.printf("Welcome to Line Comparison Computation Program");
             Scanner sc = new Scanner(System.in);
             Line_compare lc = new Line_compare();
@@ -75,7 +77,7 @@ public class Line_compare
             double p1 = sc.nextDouble();
             System.out.print("q1 = ");
             double q1 = sc.nextDouble();
-            System.out.println("Enter coordinates for point D: ");
+            System.out.println("Enter coordinates for point D : ");
             System.out.print("p2 = ");
             double p2 = sc.nextDouble();
             System.out.print("q2 = ");
