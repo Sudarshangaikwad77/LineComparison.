@@ -42,6 +42,17 @@ public class Line_compare {
         } else {
             System.out.println("Line 1 is not equal to line 2.");
         }
+        //UC-3
+        String line1 = String.valueOf(length);
+        String line2 = String.valueOf(length2);
+        int comparison = line1.compareTo(line2);
+        if (comparison == 0) {
+            System.out.println("Line 1 is equal to line 2.");
+        } else if (comparison > 0) {
+            System.out.println("Line 1 is greater than line 2.");
+        } else {
+            System.out.println("Line 1 is less than line 2.");
+        }
 
 
     }
