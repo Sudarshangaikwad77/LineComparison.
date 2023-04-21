@@ -1,6 +1,6 @@
 package com.bl.line_comparison;
 import java.util.Scanner;
-
+import java.util.Objects;
 public class Line_compare {
     public static void main(String[] args) {
         System.out.println("Welcome to Line Comparison Programme");
@@ -36,6 +36,13 @@ public class Line_compare {
         double length2 = Math.sqrt((Math.pow(a2 - a1, 2) + Math.pow(b2 - b1, 2)));
 
         System.out.println("The Length of Line 2 is: " + length2);
+
+        if (Objects.equals(length, length2)) {
+            System.out.println("Line 1 is equal to line 2.");
+        } else {
+            System.out.println("Line 1 is not equal to line 2.");
+        }
+
 
     }
 }
